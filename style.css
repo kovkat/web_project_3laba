@@ -1,0 +1,136 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+.nav_:hover{
+    opacity: 0.5;
+}
+
+header {
+    background-color: rgb(163, 163, 163);
+    color: #fff;
+    padding: 20px;
+}
+.title{
+    font-family: Copperplate, Papyrus, fantasy ;
+    font-size: 50px;
+}
+#f1{
+    padding: auto;
+}
+#m_f{
+    padding-left: 150px;
+}
+#sale{
+    text-align: center;
+    
+}
+#coll{
+    text-justify: center;
+    float: left;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+#logo{
+    width: 100px ;
+    border-radius: 50px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav_ {
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+  #dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  #dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  #dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  #dropdown:hover #dropdown-content {
+    display:contents;
+}
+
+ 
+ 
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #333;
+}
+
+#search {
+    border-radius: 10px;
+    height: 30px;
+    weight: 50px;
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+#search:hover{
+    opacity: 0.75;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.photomain {
+    width: 280px; 
+    height: 280px;
+    border: 10px solid #ccc; 
+    box-sizing: border-box;
+}
+tr:hover {background-color: #D6EEEE;}
+tr {
+    border-bottom: 1px solid #ddd;
+  }
+
+
+
+footer {
+    background-color: rgb(163, 163, 163);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    align-items: center;
+}
+
+footer a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
